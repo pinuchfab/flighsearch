@@ -1,10 +1,12 @@
-package pinuch.flightsearch;
+package pinuch.flightssearch;
 
 import static org.junit.Assert.assertTrue;
 
 import java.util.Date;
 
 import org.junit.Test;
+
+import pinuch.flightssearch.BookingForm;
 
 public class TestBookingForm 
 {

@@ -1,4 +1,4 @@
-package pinuch.flightsearch;
+package pinuch.flightssearch;
 
 import java.util.ArrayList;
 import java.util.List;

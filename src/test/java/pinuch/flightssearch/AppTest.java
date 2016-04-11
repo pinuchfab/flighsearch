@@ -1,4 +1,4 @@
-package pinuch.flightsearch;
+package pinuch.flightssearch;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

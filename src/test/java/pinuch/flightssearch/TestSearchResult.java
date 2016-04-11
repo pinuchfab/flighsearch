@@ -1,8 +1,13 @@
-package pinuch.flightsearch;
+package pinuch.flightssearch;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import pinuch.flightssearch.Currency;
+import pinuch.flightssearch.FlightsDatabase;
+import pinuch.flightssearch.Price;
+import pinuch.flightssearch.SearchResult;
 
 public class TestSearchResult 
 {

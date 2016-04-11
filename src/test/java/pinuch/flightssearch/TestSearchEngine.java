@@ -1,4 +1,4 @@
-package pinuch.flightsearch;
+package pinuch.flightssearch;
 
 import static org.junit.Assert.*;
 
@@ -7,6 +7,13 @@ import java.util.Date;
 import java.util.List;
 
 import org.junit.Test;
+
+import pinuch.flightssearch.BookingForm;
+import pinuch.flightssearch.Currency;
+import pinuch.flightssearch.FlightsDatabase;
+import pinuch.flightssearch.Price;
+import pinuch.flightssearch.SearchEngine;
+import pinuch.flightssearch.SearchResult;
 
 public class TestSearchEngine 
 {

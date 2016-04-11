@@ -1,4 +1,4 @@
-package pinuch.flightsearch;
+package pinuch.flightssearch;
 
 /**
  * Price class.
