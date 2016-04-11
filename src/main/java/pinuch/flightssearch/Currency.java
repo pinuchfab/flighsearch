@@ -17,10 +17,10 @@ public enum Currency
 	private final String name;
 	private double unitValueAsDollar;	// Unit value as dollar.
 	
-	private Currency(String name, double toDollar)
+	private Currency(String name, double unitValueAsDollar)
 	{
 		this.name = name;
-		this.unitValueAsDollar = toDollar;
+		this.unitValueAsDollar = unitValueAsDollar;
 	}
 	
 	// Set a new value is currency changes.
