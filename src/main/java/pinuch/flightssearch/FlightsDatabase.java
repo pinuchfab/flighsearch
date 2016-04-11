@@ -16,6 +16,10 @@ import java.util.Set;
  * Generate a fake database containing flights, airLines and airports.
  * Provide indexes to search for flights fast.
  * 
+ * Airports map built programatically.
+ * AirLines map built programatically.
+ * Flights maps are built from a file: ./resources/flights
+ * 
  * @author ukedfabien
  *
  */
@@ -28,7 +32,7 @@ public final class FlightsDatabase
 	public static final Map<String, AirLine> airLines = new HashMap<String, AirLine>();
 
 	// Flights.
-	public static final Set<Flight> flights = new HashSet<Flight>();
+	//public static final Set<Flight> flights = new HashSet<Flight>();
 	public static final Map<String, Set<Flight>> flightsIndexedByFromToAirportIATACodes = new HashMap<String, Set<Flight>>();
 	public static final Map<String, Flight> flightsIndexedByFligthCode = new HashMap<String, Flight>();
 	
@@ -110,7 +114,7 @@ public final class FlightsDatabase
 	private static void addFlightToDatabase(Airport from, Airport to, AirLine airLine, String flightCode, Price price) throws NoSuchAlgorithmException
 	{
 		Flight flight = new Flight(from, to, airLine, flightCode, price);
-		flights.add(new Flight(from, to, airLine, flightCode, price));
+		//flights.add(new Flight(from, to, airLine, flightCode, price));
 		flightsIndexedByFligthCode.put(flightCode, flight);
 		
 		String key = from.getIATACode() + to.getIATACode();
